@@ -1,0 +1,10 @@
+---
+- name: Install required packages
+  pkg5:
+    name:
+      - developer/golang
+      - developer/versioning/git
+      - file/mc
+      - system/storage/lsof
+    state: present
+  tags: ['pkg']

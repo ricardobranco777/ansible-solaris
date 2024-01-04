@@ -1,0 +1,7 @@
+---
+- name: Configure Solaris
+  hosts: all
+  user: root
+
+  roles:
+    - role: skeleton
