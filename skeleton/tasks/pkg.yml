@@ -2,9 +2,11 @@
 - name: Install required packages
   pkg5:
     name:
-      - developer/golang
+      - archiver/gnu-tar
+      - build-essential
       - developer/versioning/git
-      - file/mc
-      - system/storage/lsof
+# OpenIndiana only:
+#      - developer/golang
+#      - file/mc
     state: present
   tags: ['pkg']
