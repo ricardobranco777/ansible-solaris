@@ -6,7 +6,7 @@
       - build-essential
       - developer/versioning/git
 # OpenIndiana only:
-#      - developer/golang
-#      - file/mc
+      - developer/golang
+      - file/mc
     state: present
   tags: ['pkg']
