@@ -9,4 +9,3 @@
       - developer/golang
       - file/mc
     state: present
-  tags: ['pkg']
