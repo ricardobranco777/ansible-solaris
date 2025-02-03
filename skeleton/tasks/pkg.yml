@@ -4,6 +4,7 @@
     name:
       - archiver/gnu-tar
       - build-essential
+      - compress/pigz
       - developer/versioning/git
 # OpenIndiana only:
       - developer/golang
