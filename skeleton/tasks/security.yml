@@ -1,0 +1,6 @@
+---
+# https://omnios.org/info/kpti.html
+- name: Disable Meltdown mitigations
+  shell: echo kpti=0 > /boot/conf.d/kpti
+  args:
+    creates: /boot/conf.d/kpti
