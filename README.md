@@ -1,6 +1,6 @@
 # ansible-solaris
 
-Ansible configuration for OpenIndiana Hipster 2023.10 / OmniOS v11
+Ansible configuration for OpenIndiana Hipster 2024.10 / OmniOSv11
 
 Add pub ssh key to `/root/.ssh/authorized_keys` then run:
 
