@@ -6,6 +6,7 @@
       - build-essential
       - compress/pigz
       - developer/versioning/git
+      - developer/gperf
 # OpenIndiana only:
       - developer/golang
       - file/mc
