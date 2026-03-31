@@ -19,3 +19,9 @@ sudo chown $USER /build
 
 /opt/ooce/bin/omni build_media
 ```
+
+Golang:
+
+```
+pkg:/ooce/developer/go-126
+```
